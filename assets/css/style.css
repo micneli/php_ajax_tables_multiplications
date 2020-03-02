@@ -1,18 +1,18 @@
 #tables {
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
 }
 
 #table {
   margin-right: 3em;
 }
 
-.form-show, input {
-    margin-right: 20px;
+#formId input {
+  margin-right: 5px;
 }
 
-h1, h2 {
-    text-align: center;
+#formId label {
+    margin-right: 30px;
 }
 
 .text-center {
