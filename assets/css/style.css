@@ -1,26 +1,10 @@
-.tables {
+#tables {
    display: flex;
-   justify-content: start;
+   justify-content: center;
 }
 
-.table {
-    margin-right: 1em;
-}
-
-#test-form, .form-fields {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-}
-
-#test-form, input {
-    margin-left: 20px;
-}
-
-.form-show {
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
+#table {
+  margin-right: 3em;
 }
 
 .form-show, input {

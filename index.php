@@ -1,3 +1,7 @@
+<?php
+  include "includes/header.php"; 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,15 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ajax PHP</title>
-  <style>
-  #tables {
-  display: flex;
-  }
-  </style>
-
 </head>
 <body>
-  <form action="" id="formId" method="POST">
+  <form action="" id="formId" class="text-center" method="POST">
     <input type="checkbox" name="checkbox[]" value="1">1
     <input type="checkbox" name="checkbox[]" value="2">2
     <input type="checkbox" name="checkbox[]" value="3">3
@@ -22,7 +20,9 @@
     <input type="submit" name="submit" value="Submit">
   </form>
 
-  <div id="table"></div>
+  <div id="tables">
+    <div id="table"></div>
+  </div>
 
 <script>
     let form = document.getElementById("formId");
@@ -45,3 +45,6 @@
 </body>
 </html>
 
+<?php
+  include "includes/footer.php"; 
+?>
